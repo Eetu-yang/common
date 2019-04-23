@@ -9,7 +9,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @SpringBootApplication
 @ComponentScan({"com.single.**"})
 @EnableTransactionManagement
-@MapperScan(basePackages = {"com.single.dao.**"})
+@MapperScan(basePackages = {"com.single.dao"})
 public class AppStarter {
     public static void main(String[] args) {
         SpringApplication.run(AppStarter.class, args);
