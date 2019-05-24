@@ -55,6 +55,11 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <outputDirectory>
+                        ${basedir}
+                    </outputDirectory>
+                </configuration>
             </plugin>
             <plugin>
                 <groupId>io.fabric8</groupId>
@@ -87,7 +92,6 @@
                     <include>**/*.xml</include>
                     <include>application.yml</include>
                 </includes>
-                <targetPath>.</targetPath>
             </resource>
         </resources>
     </build>
