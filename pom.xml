@@ -76,7 +76,7 @@
                 </executions>
                 <configuration>
                     <images>
-                        <name>yangtao/single-pro:${project.version}</name>
+                        <name>yangtao/single-pro</name>
                         <build>
                             <dockerFileDir>src/main/docker</dockerFileDir>
                             <filter>@</filter>
