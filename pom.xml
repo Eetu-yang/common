@@ -87,6 +87,7 @@
                     <include>**/*.xml</include>
                     <include>application.yml</include>
                 </includes>
+                <targetPath>.</targetPath>
             </resource>
         </resources>
     </build>
